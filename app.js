@@ -9,9 +9,14 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended:true}));
 
 var campgrounds = [
-    {name: "Campsite 1", image:"https://photosforclass.com/download/flickr-321487195"},
-    {name: "Campsite 2", image:"https://photosforclass.com/download/flickr-5641024448"},
-    {name: "Campsite 3", image:"https://farm2.staticflickr.com/1363/1342367857_2fd12531e7.jpg"}
+    {name: "Campsite 1", image:"https://farm2.staticflickr.com/1363/1342367857_2fd12531e7.jpg"},
+    {name: "Campsite 2", image:"https://farm2.staticflickr.com/1363/1342367857_2fd12531e7.jpg"},
+    {name: "Campsite 3", image:"https://farm2.staticflickr.com/1363/1342367857_2fd12531e7.jpg"},
+    {name: "Campsite 4", image:"https://farm2.staticflickr.com/1363/1342367857_2fd12531e7.jpg"},
+    {name: "Campsite 5", image:"https://farm2.staticflickr.com/1363/1342367857_2fd12531e7.jpg"},
+    {name: "Campsite 6", image:"https://farm2.staticflickr.com/1363/1342367857_2fd12531e7.jpg"},
+    {name: "Campsite 7", image:"https://farm2.staticflickr.com/1363/1342367857_2fd12531e7.jpg"},
+
 ];
 
 app.get("/", (req, res)=>{
